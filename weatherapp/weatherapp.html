@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Weather App</title>
+    <link href="https://fonts.googleapis.com/css?family=Cute Font" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <!-- <header>
+      <h1>Philadelphia</h1>
+
+      <h3>Jan 20 2023</h3>
+      
+      <img src="settings-icon.png" alt="settings icon">
+
+      <nav>
+        <ul>
+          <li><span>Home</span></li>
+          <li><a href="#">Get started</a></li>
+          <li><a href="#">Photos</a></li>
+          <li><a href="#">Gear</a></li>
+          <li><a href="#">Forum</a></li>
+        </ul>
+      </nav>
+    </header> -->
+
+  <main>
+    <article>
+      <h1>Philadelphia <img src="plus-icon.png" alt="add weather locations" width = "15px">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="settings-icon.png" alt="settings icon">
+      </h1>
+
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jan 20 2023</p>
+
+        <div class="temperature">
+          <div class="currweather">
+            Partly Cloudy
+
+            <h3>Rain at 6pm</h3>
+
+            <h3>H: 45&nbsp;&nbsp;&nbsp;L: 30</h3>
+          </div>
+          <div class="tempimg">
+            <img src="temp.png" alt="current temperature">
+
+            <h2>FEELS LIKE 41&#176;</h2>
+          </div>
+        </div>
+    </article>
+  </main>
+
+  <main>
+    <article>
+      <div class="time">
+        <div class="fourPM">4PM</div>
+
+        <div class="fivePM">5PM</div>
+
+        <div class="sixPM">6PM</div>
+
+        <div class="sevenPM">7PM</div>
+
+        <div class="eightPM">8PM</div>
+      </div> 
+      <div class="hourlyimg">
+        <img src="hourlyweather.png" alt="hourly weather forecast" width = "373px">
+
+        <div class="tempa"><b>43</b></div>
+
+        <div class="tempb"><b>42</b></div>
+
+        <div class="tempc"><b>40</b></div>
+
+        <div class="tempd"><b>37</b></div>
+
+        <div class="tempe"><b>32</b></div>
+      </div>
+    </article>
+  </main>
+
+  <footer>
+    <div class="temperature">
+      <div class="wind" id="widget1">
+        <h2>WIND:</h2>
+
+        <b>3</b>mph SE
+      </div>
+
+      <div class="wind" id="widget2">
+        <h2>PRECIPITATION:</h2>
+
+        <b>0"</b> in last 24h
+      </div>
+    </div>
+
+    <div class="temperature">
+      <div class="visibility" id="widget2">
+        <div class="temperature">
+          <h2>VISIBILITY:</h2>
+
+          <div class="miles"><b>16</b> miles</div>
+        </div>
+
+        It's perfectly clear right now.
+      </div>
+
+      <div class="wind" id="widget1">
+        <h2>SUNSET:</h2>
+
+        5:08 PM
+      </div>
+    </div>
+
+  </footer>
+
+  <main>
+    <article id = "bottom">
+      <div class="timewheel" id="timeline">
+        <div class="yesterday">Th 19</div>
+        <div class="today">Today<br> ^</b></div>
+        <div class="tomorrow">Sat 21</div>
+      </div>
+    </article>
+  </main>
+
+  </body>
+</html>
